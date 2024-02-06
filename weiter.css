@@ -1,0 +1,53 @@
+
+.flex{
+    display: flex;
+}
+
+.masatomo,
+.tamayama,
+.yosikawa,
+.fujiwara {
+    width: 100%; /* クラスを横一列に広げる */
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.masatomo {
+    background-color: #ff9999;
+}
+
+.tamayama {
+    background-color: #99ff99;
+}
+
+.yosikawa {
+    background-color: #9999ff;
+}
+
+.fujiwara {
+    background-color: #ffff99;
+}
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+h1{
+    text-align: center;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5468a3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
