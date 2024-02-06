@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body {
+    background-image: url(img/image.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    position: relative;
+    height: 96vh;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+a{
+    display: block;
+    width: 15%;
+    text-decoration: none;
+    background-color: #C5B1FF;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 10px 0;
+    color: black;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #C5B1FF;
+    padding: 10px 20px;
+    font-size: 40px;
+    border-radius: 40px;
+}
