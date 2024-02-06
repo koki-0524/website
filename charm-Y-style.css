@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: repeating-linear-gradient(90deg, #0CC0DF 0%, #FFDE59 100%);
+}
+
+.box {
+    display: flex;
+    gap: 20px;
+    /* 必要に応じてギャップを調整してください */
+}
+
+.item {
+    flex: 1;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    font-family: "Arial", sans-serif;
+    /* 見やすいフォントの指定 */
+}
+
+.item img {
+    width: 100%;
+    /* 画像を親要素に合わせる */
+    object-fit: cover;
+    height: 250px;
+}
+
+h1 {
+    background-color: #DBF4BB;
+    /* h1タグの背景色（白い半透明） */
+    border-radius: 15px;
+    /* 角丸の半径を設定 */
+    padding: 10px;
+    /* h1タグの内側の余白 */
+}
+
+a {
+    background-color: #5CE1E6;
+    /* h1タグの背景色（白い半透明） */
+    border-radius: 15px;
+    /* 角丸の半径を設定 */
+    padding: 10px;
+    /* h1タグの内側の余白 */
+}
